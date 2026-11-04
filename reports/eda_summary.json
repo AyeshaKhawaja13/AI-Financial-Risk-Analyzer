@@ -1,0 +1,242 @@
+{
+  "source": "UCI Default of Credit Card Clients",
+  "rows": 30000,
+  "duplicates": 35,
+  "missing_pct": {
+    "limit_bal": 0.0,
+    "sex": 0.0,
+    "education": 0.0,
+    "marriage": 0.0,
+    "age": 0.0,
+    "pay_1": 0.0,
+    "pay_2": 0.0,
+    "pay_3": 0.0,
+    "pay_4": 0.0,
+    "pay_5": 0.0,
+    "pay_6": 0.0,
+    "bill_1": 0.0,
+    "bill_2": 0.0,
+    "bill_3": 0.0,
+    "bill_4": 0.0,
+    "bill_5": 0.0,
+    "bill_6": 0.0,
+    "paid_1": 0.0,
+    "paid_2": 0.0,
+    "paid_3": 0.0,
+    "paid_4": 0.0,
+    "paid_5": 0.0,
+    "paid_6": 0.0,
+    "default": 0.0
+  },
+  "class_balance": {
+    "0": 0.7788,
+    "1": 0.2212
+  },
+  "undocumented_education_codes": 345,
+  "undocumented_marriage_code_0": 54,
+  "iqr_outliers": {
+    "limit_bal": 167,
+    "education": 454,
+    "age": 272,
+    "pay_1": 3130,
+    "pay_2": 4410,
+    "pay_3": 4209,
+    "pay_4": 3508,
+    "pay_5": 2968,
+    "pay_6": 3079,
+    "bill_1": 2400,
+    "bill_2": 2395,
+    "bill_3": 2469,
+    "bill_4": 2622,
+    "bill_5": 2725,
+    "bill_6": 2693,
+    "paid_1": 2745,
+    "paid_2": 2714,
+    "paid_3": 2598,
+    "paid_4": 2994,
+    "paid_5": 2945,
+    "paid_6": 2958
+  },
+  "mannwhitney_by_feature": {
+    "limit_bal": {
+      "median_default": 90000.0,
+      "median_non_default": 150000.0,
+      "mannwhitney_p": 6.146108234810493e-190,
+      "rank_biserial": 0.23590871498836052
+    },
+    "education": {
+      "median_default": 2.0,
+      "median_non_default": 2.0,
+      "mannwhitney_p": 5.439180409229666e-14,
+      "rank_biserial": -0.05569476129856277
+    },
+    "age": {
+      "median_default": 34.0,
+      "median_non_default": 34.0,
+      "mannwhitney_p": 0.403513064183177,
+      "rank_biserial": -0.00670800825151141
+    },
+    "pay_1": {
+      "median_default": 1.0,
+      "median_non_default": 0.0,
+      "mannwhitney_p": 0.0,
+      "rank_biserial": -0.37939662357666104
+    },
+    "pay_2": {
+      "median_default": 0.0,
+      "median_non_default": 0.0,
+      "mannwhitney_p": 6.92974677164521e-309,
+      "rank_biserial": -0.2771487815511562
+    },
+    "pay_3": {
+      "median_default": 0.0,
+      "median_non_default": 0.0,
+      "mannwhitney_p": 2.549492469551512e-249,
+      "rank_biserial": -0.2486646041119882
+    },
+    "pay_4": {
+      "median_default": 0.0,
+      "median_non_default": 0.0,
+      "mannwhitney_p": 1.284044728148192e-198,
+      "rank_biserial": -0.2192313024829189
+    },
+    "pay_5": {
+      "median_default": 0.0,
+      "median_non_default": 0.0,
+      "mannwhitney_p": 8.30864890240799e-167,
+      "rank_biserial": -0.19890641941865184
+    },
+    "pay_6": {
+      "median_default": 0.0,
+      "median_non_default": 0.0,
+      "mannwhitney_p": 2.7931139253490045e-134,
+      "rank_biserial": -0.1802425812506605
+    },
+    "bill_1": {
+      "median_default": 20209.5,
+      "median_non_default": 23242.0,
+      "mannwhitney_p": 9.375693927015006e-06,
+      "rank_biserial": 0.035599293004604404
+    },
+    "bill_2": {
+      "median_default": 20320.5,
+      "median_non_default": 21748.0,
+      "mannwhitney_p": 0.0062293999995420585,
+      "rank_biserial": 0.021973550047006962
+    },
+    "bill_3": {
+      "median_default": 19857.5,
+      "median_non_default": 20245.0,
+      "mannwhitney_p": 0.025445305843653596,
+      "rank_biserial": 0.017947457534545852
+    },
+    "bill_4": {
+      "median_default": 19135.5,
+      "median_non_default": 19037.0,
+      "mannwhitney_p": 0.1372652574331405,
+      "rank_biserial": 0.011933594917751478
+    },
+    "bill_5": {
+      "median_default": 18499.5,
+      "median_non_default": 18023.0,
+      "mannwhitney_p": 0.22125826943319282,
+      "rank_biserial": 0.009820817582195995
+    },
+    "bill_6": {
+      "median_default": 18039.5,
+      "median_non_default": 16710.0,
+      "mannwhitney_p": 0.9615214128346145,
+      "rank_biserial": 0.0003871992336681451
+    },
+    "paid_1": {
+      "median_default": 1641.0,
+      "median_non_default": 2474.0,
+      "mannwhitney_p": 1.1432409660617375e-170,
+      "rank_biserial": 0.2231530068472808
+    },
+    "paid_2": {
+      "median_default": 1542.0,
+      "median_non_default": 2253.0,
+      "mannwhitney_p": 2.662600138669118e-151,
+      "rank_biserial": 0.20990039173026098
+    },
+    "paid_3": {
+      "median_default": 1226.5,
+      "median_non_default": 2000.0,
+      "mannwhitney_p": 3.065814780137781e-129,
+      "rank_biserial": 0.19356930872099953
+    },
+    "paid_4": {
+      "median_default": 1000.0,
+      "median_non_default": 1740.0,
+      "mannwhitney_p": 2.9514658903402366e-109,
+      "rank_biserial": 0.17755268288852022
+    },
+    "paid_5": {
+      "median_default": 1000.0,
+      "median_non_default": 1772.0,
+      "mannwhitney_p": 5.027821574605946e-91,
+      "rank_biserial": 0.1616547363617531
+    },
+    "paid_6": {
+      "median_default": 1000.0,
+      "median_non_default": 1710.0,
+      "mannwhitney_p": 1.3724148631614531e-98,
+      "rank_biserial": 0.16816485958824534
+    }
+  },
+  "chi2_categorical_vs_target": {
+    "sex": {
+      "chi2": 47.13112674398994,
+      "p": 6.6392887616462755e-12,
+      "default_rate_by_group": {
+        "1": 0.2416,
+        "2": 0.2079
+      }
+    },
+    "education": {
+      "chi2": 160.46034641045537,
+      "p": 1.4580892708563812e-34,
+      "default_rate_by_group": {
+        "1": 0.1924,
+        "2": 0.2374,
+        "3": 0.2517,
+        "4": 0.0705
+      }
+    },
+    "marriage": {
+      "chi2": 27.488740355021207,
+      "p": 1.073731946266748e-06,
+      "default_rate_by_group": {
+        "1": 0.2346,
+        "2": 0.2095,
+        "3": 0.2361
+      }
+    }
+  },
+  "spearman_with_target": {
+    "limit_bal": -0.1698,
+    "education": 0.0434,
+    "age": 0.0048,
+    "pay_1": 0.2923,
+    "pay_2": 0.217,
+    "pay_3": 0.1948,
+    "pay_4": 0.1737,
+    "pay_5": 0.159,
+    "pay_6": 0.1425,
+    "bill_1": -0.0256,
+    "bill_2": -0.0158,
+    "bill_3": -0.0129,
+    "bill_4": -0.0086,
+    "bill_5": -0.0071,
+    "bill_6": -0.0003,
+    "paid_1": -0.1609,
+    "paid_2": -0.1514,
+    "paid_3": -0.1397,
+    "paid_4": -0.1283,
+    "paid_5": -0.1169,
+    "paid_6": -0.1217,
+    "sex": -0.0397,
+    "marriage": -0.0284
+  }
+}
